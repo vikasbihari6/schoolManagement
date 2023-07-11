@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.school-name{
+    font-weight: bold;
+}
+
+
+.link-list{
+    font-size: 1.2rem;
+}
+.link-list li a:hover{
+    color: rgb(248,98,52);
+}
+.login-btn{
+    background-color: rgb(248,98,52);
+    color: white;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.notice{
+    width: 12%;
+    margin: auto;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.line{
+    width: 8%;
+    margin: auto;
+    border: 2px solid rgb(248,98,52);
+}
+.notice-board{
+    width: 100%;
+    background-color: rgb(248,98,52);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.notice-board ul{
+    list-style-type: none;
+}
+.addmission-form{
+    width: 15%;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(248,98,52);
+}
+.offer{
+    width: 20%;
+    margin: auto;
+    padding: 0 0.8rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.offer-line{
+    width: 18%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    border: 2px solid rgb(248,98,52);
+}
+
+.offer-first-content{
+    width: 100%;
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+}
+.offer-first-content .first{
+    width: 20%;
+    font-size: 1.4rem;
+}
+.offer-first-content .first i,h3{
+    text-align: center;
+    width: 100%;
+}
+.offer-first-content,.offer-second-content p{
+    font-weight: lighter;
+}
+.offer-second-content{
+    width: 100%;
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+}
+.offer-second-content .first{
+    width: 20%;
+    font-size: 1.4rem;
+}
+.offer-second-content .first i,h3{
+    text-align: center;
+    width: 100%;
+}
+i{
+    color: #ff6b00
+}
+.founder{
+    width: 25%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+.founder h1{
+    margin: 1rem;
+}
+.founder .line{
+    width: 50%;
+}
+.founder-info{
+    width: 100%;
+    display: flex;
+    direction: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+.about-founder{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem auto;
+}
+.about-founder h2{
+    font-weight: bold;
+}
+.about-founder p{
+    font-weight: lighter;
+}
+.founder-pic{
+    width: 50%;
+}
+.founder-pic img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.director{
+    width: 25%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+.director .line{
+    width: 60%;
+}
+.director-info{
+    width: 100%;
+    display: flex;
+    direction: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+.about-director{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem auto;
+}
+.about-director h2{
+    font-weight: bold;
+}
+.about-director p{
+    font-weight: lighter;
+}
+.about-director .director-contact{
+    background-color: rgb(248,98,52);
+    color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    border: none;
+}
+.director-pic{
+    width: 50%;
+}
+.director-pic img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.our-teachers{
+    margin: 2rem;
+}
+.our-teachers .teachers-headline{
+    width: 40%;
+    margin: 2rem auto;
+}
+.our-teachers .line{
+    width: 30%;
+    margin: 2rem auto;
+}
+.our-teachers .teachers-image{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+}
+.our-teachers .teachers-image img{
+    width: 400px;
+    height: 400px;
+}
+
+.gallery .gallery-headline{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+.gallery .line{
+    width: 10%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+}
+.contact{
+    width: 100%;
+    padding-top: 2rem;
+    background-image: url('https://images.unsplash.com/photo-1625225230517-7426c1be750c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvcm18ZW58MHx8MHx8&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.contact .contact-form input,textarea{
+    width: 100%;
+    height: 3.5rem;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+.contact .contact-form{
+    width: 30%;
+    margin: auto;
+}
+.contact .contact-form button{
+    background-color: #ff6b00;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+footer .about{
+    width: 30%;
+
+}
+footer .link{
+    width: 10%;
+}
+footer .services{
+    width: 10%;
+
+}
+footer .join-us{
+    width: 30%;
+}
+footer ul,p{
+    padding: 0;
+    font-weight:lighter;
+    color: rgb(242, 227, 227);
+    font-size: 1.3rem;
+}
+footer ul li{
+    list-style-type: none;
+    margin: 1rem 0;
+}
+footer ul li:hover{
+    color: rgb(248,98,52);
+}
+footer input{
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+footer button{
+    margin: 0;
+    border: none;
+    outline: none;
+    background-color: #ff6b00;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
